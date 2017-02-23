@@ -25,3 +25,9 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+task stage() {
+    project(':web-api-server') {
+        task('stage')
+    }
+}
