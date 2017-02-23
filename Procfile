@@ -1,1 +1,1 @@
-web: java -jar build/distributions/web-api-1.0-SNAPSHOT.jar
+web: java -jar build/libs/web-api-1.0-SNAPSHOT.jar
