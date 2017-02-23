@@ -1,1 +1,1 @@
-include ':app-android', ':web-api-server'
+include /*':app-android',*/ ':web-api-server'
