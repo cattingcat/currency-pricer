@@ -26,6 +26,13 @@ apply plugin: 'application'
 
 // application plugin main class
 mainClassName = "org.currency_pricer.App"
+jar {
+    manifest {
+        attributes(
+            'Main-Class': mainClassName
+        )
+    }
+}
 
         
 repositories {
