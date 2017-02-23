@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-api.iml" filepath="$PROJECT_DIR$/.idea/modules/web-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/web-api_main.iml" group="web-api" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/web-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/web-api_test.iml" group="web-api" />
+      <module fileurl="file://$PROJECT_DIR$/CurrencyPricer.iml" filepath="$PROJECT_DIR$/CurrencyPricer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app-android/app-android.iml" filepath="$PROJECT_DIR$/app-android/app-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-api-server/web-api-server.iml" filepath="$PROJECT_DIR$/web-api-server/web-api-server.iml" />
     </modules>
   </component>
 </project>

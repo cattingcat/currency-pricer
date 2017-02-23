@@ -1,3 +1,1 @@
-rootProject.name = 'web-api'
-include 'common'
-
+include ':app-android', ':web-api-server'
