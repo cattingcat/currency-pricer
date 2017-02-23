@@ -27,5 +27,5 @@ task clean(type: Delete) {
 }
 
 // For heroku deploy
-task stage(dependsOn: ':web-api-server:jar') << {
+task stage(dependsOn: ':web-api-server:run') << {
 }
