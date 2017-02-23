@@ -14,12 +14,14 @@ class KurscomruDataSource : ISpreadDataSource {
     companion object {
         fun getUri(currency: Currency): String {
             val cal = Calendar.getInstance()
-            val format = SimpleDateFormat("dd.mm.yy")
+            val format = SimpleDateFormat("dd.MM.yy")
             val dateStr = format.format(cal.time)
 
             val currCode = currency.currencyCode.toLowerCase()
 
-            val uri = "https://kurs.com.ru/ajax/valyuta_nalichnie/all/$currCode/$dateStr/0"
+            val uri = "https://kurs.com.ru/ajax/valyuta_nalichnie/all/$currCode/$dateStr"
+
+            println("request data from uri: $uri")
 
             return uri
         }
