@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar web-api-server/build/install/web-api-server/lib/*.jar
+web: web-api-server/build/install/web-api-server/bin/web-api-server

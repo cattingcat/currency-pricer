@@ -27,5 +27,5 @@ task clean(type: Delete) {
 }
 
 // For heroku deploy
-task stage(dependsOn: ':web-api-server:installApp') << {
+task stage(dependsOn: ':web-api-server:installDist') << {
 }

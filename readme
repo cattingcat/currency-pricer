@@ -1,1 +1,4 @@
 API url: https://currency-pricer-web-api.herokuapp.com/spreads
+
+procfile1:
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar web-api-server/build/libs/*.jar
