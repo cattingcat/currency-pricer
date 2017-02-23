@@ -17,22 +17,11 @@ buildscript {
     }
 }
 
-
 apply plugin: 'java'
 apply plugin: 'kotlin'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 apply plugin: 'application'
-
-// application plugin main class
-mainClassName = "org.currency_pricer.App"
-jar {
-    manifest {
-        attributes(
-            'Main-Class': mainClassName
-        )
-    }
-}
 
         
 repositories {
@@ -47,5 +36,17 @@ dependencies {
     compile 'org.springframework.boot:spring-boot-starter-web'      // web api server
     compile 'org.jsoup:jsoup:1.10.2'                                // HTML parser
     compile 'com.google.code.gson:gson:2.8.0'                       // JSON parser
-    // compile project(':common')                                   // reference to another project
+    //compile project(':common')                                   // reference to another project
+}
+
+
+// application plugin main class
+mainClassName = "org.currency_pricer.App"
+jar {
+    manifest {
+        attributes(
+                'Main-Class': mainClassName,
+                "Class-Path": configurations.compile.collect { it.getName() }.join(' ')
+        )
+    }
 }

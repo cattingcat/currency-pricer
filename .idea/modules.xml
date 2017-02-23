@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidApp/AndroidApp.iml" filepath="$PROJECT_DIR$/AndroidApp/AndroidApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/CurrencyPricer.iml" filepath="$PROJECT_DIR$/CurrencyPricer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app-android/app-android.iml" filepath="$PROJECT_DIR$/app-android/app-android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web-api-server/web-api-server.iml" filepath="$PROJECT_DIR$/web-api-server/web-api-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebApiServer/WebApiServer.iml" filepath="$PROJECT_DIR$/WebApiServer/WebApiServer.iml" />
     </modules>
   </component>
 </project>

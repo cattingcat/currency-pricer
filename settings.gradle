@@ -1,2 +1,2 @@
 // We need comment android app before heroku deploy
-include /*':app-android',*/ ':web-api-server'
+include /*':AndroidApp',*/ ':WebApiServer'

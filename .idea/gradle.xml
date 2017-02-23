@@ -9,8 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app-android" />
-            <option value="$PROJECT_DIR$/web-api-server" />
+            <option value="$PROJECT_DIR$/AndroidApp" />
+            <option value="$PROJECT_DIR$/WebApiServer" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
